@@ -80,7 +80,16 @@ InterfaceError: (InterfaceError) 2013: Lost connection to MySQL server during qu
 
 ### Ответ:
 
-В данном случае начала заканчиваться память и сервер вызвал Out-Of-Memory Killer - процесс, который завершает приложение, чтобы спасти ядро от сбоя. Один из способов это увеличить раздел подкачки. 
+В данном случае начала заканчиваться память и сервер вызвал Out-Of-Memory Killer - процесс, который завершает приложение, чтобы спасти ядро от сбоя. Один из способов это увеличить раздел подкачки. Ну и непосредственно PostgresSQL: попытаться отрегулировать параметры памяти (официальная документация PostgresPro - 18.4. Потребление ресурсов):  
+- shared_buffers (integer)
+- huge_pages (enum)
+- temp_buffers (integer)
+- max_prepared_transactions (integer)
+- work_mem (integer)
+- maintenance_work_mem (integer)
+- autovacuum_work_mem (integer)
+- max_stack_depth (integer)
+- dynamic_shared_memory_type (enum)
 
 ---
 
