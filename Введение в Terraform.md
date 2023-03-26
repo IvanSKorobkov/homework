@@ -62,7 +62,13 @@ Error: Invalid resource name
 5.
 ![Imagealt](https://github.com/IvanSKorobkov/homework/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-03-25%2021-19-28.png)
 
-6. ![Imagealt](
+6. 
+![Imagealt](https://github.com/IvanSKorobkov/homework/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-03-25%2021-30-45.png)
+
+Я считаю, что внесение изменений в уже готовую инфраструктуру может привести к критическим ошибкам и как результат "падению" всей инфрастуктуры. В данном случае переименование контейнера не повреждает никаких зависимостей, поэтому оно прошло "безболезненно", но если бы у нас была зависимость к названию контейнера то мы получили бы сломанную инфаструктуру. 
+
+8. 
+![Imagealt](https://github.com/IvanSKorobkov/homework/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-03-26%2019-52-37.png)
 
 ## Дополнительные задания (со звездочкой*)
 
