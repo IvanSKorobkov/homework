@@ -15,8 +15,7 @@
 
 ### Ответ:
 
-1.
-
+![Imagealt](https://github.com/IvanSKorobkov/homework/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-03-25%2020-12-18.png)
 
 ------
 
@@ -42,7 +41,28 @@
 
 ### Ответ:
 
+2. *.tf — файлы конфигурации
+3.  "result": "VSuMeBuhaHBM2FFr"
+
+4.
+```
+Error: Missing name for resource
+│ 
+│   on main.tf line 23, in resource "docker_image":
+│   23: resource "docker_image"
 ------
+Все блоки ресурсов должны иметь 2 метки (lable) (тип, имя).
+
+Error: Invalid resource name
+│ 
+│   on main.tf line 27, in resource "docker_container" "1nginx":
+│   27: resource "docker_container" "1nginx" 
+Имя должно начинаться с буквы или символа подчеркивания и может содержать только буквы, цифры, символы подчеркивания и тире.
+```
+5.
+![Imagealt](https://github.com/IvanSKorobkov/homework/blob/main/%D0%A1%D0%BD%D0%B8%D0%BC%D0%BE%D0%BA%20%D1%8D%D0%BA%D1%80%D0%B0%D0%BD%D0%B0%20%D0%BE%D1%82%202023-03-25%2021-19-28.png)
+
+6. ![Imagealt](
 
 ## Дополнительные задания (со звездочкой*)
 
